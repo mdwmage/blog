@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="" />
+    <title>fluffydragon space</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/elements.css" />
+    <link rel="stylesheet" href="/src/fonts.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <iframe
+          src="/titlebar.html"
+          scrolling="no"
+          class="titleFrame"
+          width="100%"
+        ></iframe>
+        <iframe
+          src="/navbar.html"
+          scrolling="no"
+          class="navFrame"
+          width="100%"
+        ></iframe>
+        <div class="contentbox">
+          <h1>The blog</h1>
+          <div id="blogger"></div>
+        </div>
+      </div>
+      <iframe
+        src="/footer.html"
+        scrolling="no"
+        class="footerFrame"
+        width="100vw"
+      ></iframe>
+    </div>
+    <script src="/blogger.js"></script>
+    <script>
+      let posts = ["blog/soon.html"];
+      renderBlock(posts);
+    </script>
+  </body>
+</html>
