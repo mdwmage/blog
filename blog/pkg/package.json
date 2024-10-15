@@ -1,0 +1,28 @@
+{
+  "name": "bleh",
+  "type": "module",
+  "description": "A basic wasm blogging library/tool",
+  "version": "0.2.1",
+  "license": "MPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://codeberg.org/gecotron/bleh"
+  },
+  "files": [
+    "bleh_bg.wasm",
+    "bleh.js",
+    "bleh.d.ts",
+    "LICENSE.md"
+  ],
+  "main": "bleh.js",
+  "types": "bleh.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ],
+  "keywords": [
+    "blogging",
+    "webassembly",
+    "static_html",
+    "wasm"
+  ]
+}

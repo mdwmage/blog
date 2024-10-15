@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="/src/fonts.css" />
+    <link rel="stylesheet" href="/src/elements.css" />
+    <link rel="stylesheet" href="posts/post.css" />
+  </head>
+
+  <body class="maintext">
+    <div class="mainbody">
+      <div id="posts"></div>
+    </div>
+  </body>
+  <script type="module">
+    import init, { run } from "./pkg/bleh.js";
+    init().then(() => {
+      run("bleh.toml");
+    });
+  </script>
+</html>

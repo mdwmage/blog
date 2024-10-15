@@ -1,0 +1,9 @@
+[look]
+template = "template.html"
+footer = true
+footer_file = "footer.html"
+
+[blog]
+path = "posts"
+posts = ["oct_15.html"]
+container = "posts"
